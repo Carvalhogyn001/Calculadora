@@ -1,5 +1,7 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 /*	Programa que recebe dois números inteiros e calcula: A soma dos dois números, a subtração do primeiro pelo 		
 	segundo, a multiplicação dos dois números, a divisão do primeiro pelo segundo, o resto da divisão dos dois 		
@@ -21,8 +23,8 @@ main (){
 	cout << "numeros ***.\n\n"<< endl;
 	cout << "*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*"<< endl;
 
-	cout << "\n\nDigite o primeiro numero: "<< endl; scanf("%i", &num1);
-	cout << "Digite o segundo numero: "<< endl; scanf("%i", &num2);
+	cout << "\n\nDigite o primeiro numero: "<< endl; cin >> num1;
+	cout << "Digite o segundo numero: "<< endl; cin >> num2;
 
 	
 	soma = (num1 + num2) ;
@@ -30,7 +32,7 @@ main (){
 	mult = (num1 * num2) ;
 	div = (num1 / num2) ;
 	div1 = (num2 / num1) ;
-	resto = (num1 % num2<< endl;
+	resto = (num1 % num2);
 
 	cout << "A soma e: " << soma<< endl;
 	cout << "A subtracao e: " << sub<< endl;
