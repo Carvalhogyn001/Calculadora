@@ -15,14 +15,14 @@ main (){
 	int num1, num2, soma, sub, mult;
 	float div, div1, resto, quo;
 	
-	printf("*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*\n\n");
-	printf("*** Programa que recebe dois numeros inteiros e calcula: ***\n*** A soma dos dois numeros, a subtracao do primeiro pelo");		
-	printf("segundo, ***\n*** a multiplicacao dos dois numeros, a divisao do primeiro pelo segundo ***\n*** e o resto da divisao dos dois");		
-	printf("numeros ***.\n\n");
-	printf("*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*");
+	cout << "*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*\n\n"<< endl;
+	cout << "*** Programa que recebe dois numeros inteiros e calcula: ***\n*** A soma dos dois numeros, a subtracao do primeiro pelo"<< endl;		
+	cout << "segundo, ***\n*** a multiplicacao dos dois numeros, a divisao do primeiro pelo segundo ***\n*** e o resto da divisao dos dois"<< endl;		
+	cout << "numeros ***.\n\n"<< endl;
+	cout << "*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*"<< endl;
 
-	printf("\n\nDigite o primeiro numero: "); scanf("%i", &num1);
-	printf("Digite o segundo numero: "); scanf("%i", &num2);
+	cout << "\n\nDigite o primeiro numero: "<< endl; scanf("%i", &num1);
+	cout << "Digite o segundo numero: "<< endl; scanf("%i", &num2);
 
 	
 	soma = (num1 + num2) ;
@@ -30,14 +30,14 @@ main (){
 	mult = (num1 * num2) ;
 	div = (num1 / num2) ;
 	div1 = (num2 / num1) ;
-	resto = (num1 % num2);
+	resto = (num1 % num2<< endl;
 
-	printf("A soma e: %i\n", soma);
-	printf("A subtracao e: %i \n", sub);
-	printf("A multiplicacao e: %i\n", mult);
-	printf("A divisao do primeiro pelo segundo e: %.0f\n", div);
-	printf("A divisao do segundo pelo primeiro e: %.0f\n", div);
-	printf("O resto da divisao e: %.0f\n", resto);
+	cout << "A soma e: " << soma<< endl;
+	cout << "A subtracao e: " << sub<< endl;
+	cout << "A multiplicacao e: " << mult<< endl;
+	cout << "A divisao do primeiro pelo segundo e: " << div<< endl;
+	cout << "A divisao do segundo pelo primeiro e: " << div<< endl;
+	cout << "O resto da divisao e: " << resto<< endl;
 
 
 }
